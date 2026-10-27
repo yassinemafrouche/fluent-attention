@@ -36,6 +36,8 @@ This repository is the result of that journey. It is a **Proof of Concept**, not
 
 ## 🧠 How it works
 
+![Fluent Attention Architecture](architecture.png)
+
 Fluent combines two ideas:
 1. **Local Water**: each token attends to its 64 nearest neighbors (sliding window, O(N·W)).
 2. **Global Crystals**: every 64 tokens are pooled into a "crystal", and crystals attend to each other (O(N/W · N/W)).
